@@ -1,0 +1,11 @@
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-header {
+        margin-bottom: 32px;
+    }
+}

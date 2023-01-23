@@ -1,0 +1,13 @@
+.section-header__link {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.section-header__link:hover {
+    color: #ABB2BF;
+}

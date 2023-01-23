@@ -1,0 +1,4 @@
+.message-me__container {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.menu__links-item {
+    list-style-type: none;
+    color: #ABB2BF;
+    text-decoration: none;
+    transition: 0.2s;
+    height: 100%;
+}
+
+.menu__links-item:hover {
+    opacity: 0.8;
+}

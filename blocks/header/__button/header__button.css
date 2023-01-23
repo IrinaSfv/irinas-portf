@@ -1,0 +1,13 @@
+.header__button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    display: inline-block;
+	text-decoration: none;
+    color: #54CAFA;
+    transition: 0.2s;
+}
+
+.header__button:hover {
+    opacity: 0.8;
+}

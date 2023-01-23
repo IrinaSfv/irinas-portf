@@ -1,0 +1,14 @@
+.about-me__avatar-container {
+    margin-left: auto;
+    grid-area: avatar;
+    max-width: 250px;
+    /* max-height: 250px; */
+    position: relative;
+    align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__avatar-container {
+        display: none;
+    }
+}

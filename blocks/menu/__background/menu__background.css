@@ -1,0 +1,15 @@
+.menu__background {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    opacity: .5;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    transition-duration: .2s;
+    z-index: 4;
+}

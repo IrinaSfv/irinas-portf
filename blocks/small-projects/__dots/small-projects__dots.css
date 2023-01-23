@@ -1,0 +1,19 @@
+.small-projects__dots {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    right: -34px;
+}
+
+@media screen and (max-width: 1200px) {
+    .small-projects__dots {
+        right: -40px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .small-projects__dots {
+        right: -60px;
+    }
+}

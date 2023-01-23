@@ -1,0 +1,19 @@
+.footer__description {
+    display: grid;
+    grid-template-areas:
+    "logo email ."
+    "text text text";
+    row-gap: 16px;
+    column-gap: 32px;
+    justify-items: start;
+    align-items: center;
+}
+
+@media screen and (max-width: 568px) {
+    .footer__description  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+}

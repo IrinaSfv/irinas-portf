@@ -1,0 +1,14 @@
+.message__input {
+    box-sizing: border-box;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+    background-color: transparent;
+    border: 1px solid #ABB2BF;
+}
+
+.message__input::placeholder {
+    color: #ABB2BF;
+ }

@@ -1,0 +1,13 @@
+.section-header__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    margin: 0 16px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .section-header__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}

@@ -1,0 +1,18 @@
+.state__author {
+    max-width: 260px;
+    margin: 0;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFF;
+    border: 1px solid #ABB2BF;
+    border-top: none;
+}
+
+@media screen and (max-width: 768px) {
+    .state__author {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}

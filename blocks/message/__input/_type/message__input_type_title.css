@@ -1,0 +1,4 @@
+.message__input_type_title {
+    grid-area: title;
+    max-width: 505px;
+}

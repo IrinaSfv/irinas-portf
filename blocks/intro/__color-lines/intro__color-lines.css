@@ -1,0 +1,21 @@
+.intro__color-lines {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1145px) {
+    .intro__color-lines {
+        top: 57px;
+        left: 5px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .intro__color-lines {
+        display: none;
+    }
+}

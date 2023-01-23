@@ -1,0 +1,14 @@
+.facts__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 625px;
+    gap: 16px;
+}
+
+@media screen and (max-width: 984px) {
+    .facts__list{
+        max-width: 575px;
+    }
+}

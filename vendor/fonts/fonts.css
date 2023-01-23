@@ -1,0 +1,55 @@
+/* @font-face {
+     font-family: 'CMU Typewriter Text';
+     font-style:  normal;
+     font-weight: 200;
+     font-display: swap;
+     src: url("./cmunbtl-webfont.woff2") format("woff2"),
+          url("./cmunbtl-webfont.woff") format("woff");
+ 
+}
+ 
+@font-face {
+     font-family: 'CMU Typewriter Text';
+     font-style:  normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url("./cmuntt-webfont.woff2") format("woff2"),
+          url("./cmuntt-webfont.woff") format("woff");
+}
+ 
+@font-face {
+     font-family: 'CMU Typewriter Text';
+     font-style:  normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url("./cmuntb-webfont.woff2") format("woff2"),
+          url("./cmuntb-webfont.woff") format("woff");
+} */
+
+@font-face {
+     font-family: 'Fira Code';
+     font-style:  normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url("./FiraCode-Regular.woff2") format("woff2"),
+          url("./FiraCode-Regular.woff") format("woff");
+ 
+}
+ 
+@font-face {
+     font-family: 'Fira Code';
+     font-style:  normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url("./FiraCode-Medium.woff2") format("woff2"),
+          url("./FiraCode-Medium.woff") format("woff");
+}
+ 
+@font-face {
+     font-family: 'Fira Code';
+     font-style:  normal;
+     font-weight: 600;
+     font-display: swap;
+     src: url("./FiraCode-Bold.woff2") format("woff2"),
+          url("./FiraCode-Bold.woff") format("woff");
+}

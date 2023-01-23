@@ -1,0 +1,14 @@
+.contacts__item {
+    height: 32px;
+    margin: 0 0 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__item {
+        margin: 0 0 8px;
+    }
+}
+
+.contacts__item:last-of-type {
+    margin-bottom: 0;
+}

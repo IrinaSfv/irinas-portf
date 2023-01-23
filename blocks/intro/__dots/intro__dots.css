@@ -1,0 +1,8 @@
+.intro__dots {
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 3;
+}

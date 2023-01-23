@@ -1,0 +1,10 @@
+.contact-links__item {
+    list-style-type: none;
+    color: #ABB2BF;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.contact-links__item:hover {
+    opacity: 0.8;
+}

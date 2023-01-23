@@ -1,0 +1,16 @@
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 360px;
+    height: 100%;
+    margin: 0;
+    padding: 68px 0;
+    list-style: none;
+    background-color: #252C37;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .2s;
+    z-index: 5;
+}

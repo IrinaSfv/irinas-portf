@@ -1,0 +1,16 @@
+.about-me__cover {
+    background-color: rgba(84, 202, 250, 0.7);
+    width: 100%;
+    height: 250px;
+    border-radius: 5%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    z-index: 3;
+    transition: 0.2s;
+}
+
+.about-me__cover:hover {
+    background-color: transparent;
+}

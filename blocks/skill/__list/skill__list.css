@@ -1,0 +1,13 @@
+.skill__list {
+    margin: 0;
+    padding: 8px;
+    display: flex;
+    margin-right: auto;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+    border-top: 1px solid #ABB2BF;
+}

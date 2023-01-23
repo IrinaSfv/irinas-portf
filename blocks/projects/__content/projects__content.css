@@ -1,0 +1,23 @@
+.projects__content {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .projects__content {
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 642px) {
+    .projects__content {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        gap: 16px;
+        max-width: 400px;
+    }
+}

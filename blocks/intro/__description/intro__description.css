@@ -1,0 +1,23 @@
+.intro__description {
+    margin: 0 0 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ABB2BF;
+    max-width: 463px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__description {
+        margin: 0 0 24px;
+        margin: 0 0 16px;
+        max-width: 384px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .intro__description {
+       text-align: center;
+    }
+}

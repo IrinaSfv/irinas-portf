@@ -1,0 +1,14 @@
+.intro__dots_type_big {
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    bottom: 120px;
+    left: 15px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 984px) {
+    .intro__dots_type_big {
+        display: none;
+    }
+}

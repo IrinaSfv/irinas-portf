@@ -1,0 +1,13 @@
+.projects__gray-lines {
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    top: 300px;
+    right: -80px;
+}
+
+@media screen and (max-width: 1124px) {
+    .projects__gray-lines {
+        right: -110px;
+    }
+}

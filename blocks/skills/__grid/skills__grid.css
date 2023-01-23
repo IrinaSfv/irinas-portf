@@ -1,0 +1,16 @@
+.skills__grid {
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+    z-index: 2;
+}
+
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .skills__grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

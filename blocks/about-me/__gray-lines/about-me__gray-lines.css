@@ -1,0 +1,13 @@
+.about-me__gray-lines {
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    top: 140px;
+    left: -80px;
+}
+
+@media screen and (max-width: 984px) {
+    .about-me__gray-lines {
+        left: -110px;
+    }
+}

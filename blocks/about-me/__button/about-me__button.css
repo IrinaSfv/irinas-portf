@@ -1,0 +1,5 @@
+.about-me__button {
+    grid-area: button;
+    width: 148px;
+    height: 37px;
+}

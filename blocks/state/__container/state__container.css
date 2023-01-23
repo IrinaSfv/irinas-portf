@@ -1,0 +1,8 @@
+.state__container {
+    margin: 0;
+    width: 100%;
+    max-width: 712px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

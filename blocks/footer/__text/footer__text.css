@@ -1,0 +1,10 @@
+.footer__text {
+    margin: 0;
+    padding: 0;
+    grid-area: text;
+    align-self: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 476px;
+}

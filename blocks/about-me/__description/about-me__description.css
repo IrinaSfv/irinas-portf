@@ -1,0 +1,12 @@
+.about-me__description {
+    /* max-width: 515px; */
+    grid-area: description;
+    /* margin-bottom: 30px; */
+    margin: 0; 
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__description {
+        max-width: 100%;
+    }
+}

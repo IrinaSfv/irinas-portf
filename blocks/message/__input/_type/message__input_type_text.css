@@ -1,0 +1,5 @@
+.message__input_type_text {
+    grid-area: text;
+    resize: none;
+    max-width: 505px;
+}

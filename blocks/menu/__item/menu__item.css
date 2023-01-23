@@ -1,0 +1,21 @@
+.menu__item {
+    display: block;
+    padding: 16px 30px;
+    color: #ABB2BF;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-decoration: none;
+    transition-duration: .2s;
+}
+
+@media screen and (max-width: 568px) {
+    .menu__item {
+        padding: 16px 16px;
+    }
+}
+
+.menu__item:hover {
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    opacity: 0.8;
+}

@@ -1,0 +1,4 @@
+.message__submit-button {
+    grid-area: submit;
+    max-width: 145px;
+}

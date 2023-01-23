@@ -1,0 +1,17 @@
+.section-header__line {
+    height: 1px;
+    width: 30%;
+    background-color: #54CAFA;
+}
+
+@media screen and (max-width: 768px) {
+    .section-header__line {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .section-header__line {
+        display: none;
+    }
+}

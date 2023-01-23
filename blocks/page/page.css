@@ -1,0 +1,17 @@
+.page {
+    min-width: 320px;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #252C37;
+    font-family: 'Fira Code', 'Roboto', 'Arial', sans-serif;
+    color: #FFF;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
+    overflow-x: hidden;
+}

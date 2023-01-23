@@ -1,0 +1,10 @@
+.message__input_type_email {
+    grid-area: email;
+    max-width: 245px;
+}
+
+@media screen and (max-width: 568px) {
+    .message__input_type_email {
+        max-width: 505px;
+    }
+}

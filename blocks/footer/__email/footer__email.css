@@ -1,0 +1,8 @@
+.footer__email {
+    margin: 0;
+    grid-area: email;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB2BF;
+}

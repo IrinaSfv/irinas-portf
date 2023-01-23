@@ -1,0 +1,26 @@
+.menu__toggle {
+    opacity: 0;
+}
+  
+.menu__toggle:checked ~ .menu__btn > .menu__span {
+    transform: rotate(45deg);
+}
+
+.menu__toggle:checked ~ .menu__btn > .menu__span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+.menu__toggle:checked ~ .menu__btn > .menu__span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+.menu__toggle:checked ~ .menu__background {
+    visibility: visible;
+}

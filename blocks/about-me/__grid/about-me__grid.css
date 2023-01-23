@@ -1,0 +1,16 @@
+.about-me__grid {
+    width: 100%;
+    display: grid;
+    column-gap: 10%;
+    grid-template-areas:
+    "description avatar"
+    "button .";
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 16px
+    }
+}

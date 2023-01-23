@@ -1,0 +1,9 @@
+.intro__button {
+    width: 150px;
+} 
+
+/* @media screen and (max-width: 690px) {
+    .intro__button {
+        margin-bottom: 8px;
+    }
+} */

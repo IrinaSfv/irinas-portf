@@ -1,0 +1,32 @@
+.state__text {
+    margin: 0;
+    padding: 32px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFF;
+    border: 1px solid #ABB2BF;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .state__text {
+        padding: 24px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+.state__text::before {
+    content: url('/images/state_quaters.svg');
+    position: absolute;
+    left: 15px;
+    top: -19px;
+}
+
+.state__text::after {
+    content: url('/images/state_quaters.svg');
+    position: absolute;
+    right: 15px;
+    bottom: -19px;
+}

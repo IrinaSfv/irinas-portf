@@ -1,0 +1,37 @@
+.about-me__dots_type_small {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 150px;
+    right: 380px;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-me__dots_type_small {
+        right: 360px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .about-me__dots_type_small {
+        right: 310px;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .about-me__dots_type_small {
+        top: 200px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .about-me__dots_type_small {
+        right: 260px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-me__dots_type_small {
+        display: none;
+    }
+}

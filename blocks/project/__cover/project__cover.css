@@ -1,0 +1,15 @@
+.project__cover {
+    background-color: rgba(84, 202, 250, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    z-index: 3;
+    transition: 0.2s;
+}
+
+.project__cover:hover {
+    background-color: transparent;
+}

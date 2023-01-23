@@ -1,0 +1,13 @@
+.state__gray-lines {
+    width: 91px;
+    height: 91px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+@media screen and (max-width: 984px) {
+    .state__gray-lines {
+        display: none;
+    }
+}

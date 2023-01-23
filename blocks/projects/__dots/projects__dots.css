@@ -1,0 +1,7 @@
+.projects__dots {
+    width: 85px;
+    min-height: 85px;
+    position: absolute;
+    top: 100px;
+    left: -45px;
+}

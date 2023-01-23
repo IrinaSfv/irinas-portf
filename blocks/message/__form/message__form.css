@@ -1,0 +1,18 @@
+.message__form {
+    box-sizing: border-box;
+    max-width: 505px;
+    display: grid;
+    grid-template-areas:
+    "name email"
+    "title title"
+    "text text"
+    "submit .";
+    gap: 16px;
+}
+
+@media screen and (max-width: 568px) {
+    .message__form {
+        display: flex;
+        flex-direction: column;
+    }
+}

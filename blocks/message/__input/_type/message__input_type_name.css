@@ -1,0 +1,10 @@
+.message__input_type_name {
+    grid-area: name;
+    max-width: 245px;
+}
+
+@media screen and (max-width: 568px) {
+    .message__input_type_name {
+        max-width: 505px;
+    }
+}
