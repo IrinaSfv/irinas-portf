@@ -167,32 +167,6 @@
 @import url(/blocks/small-projects/__dots/small-projects__dots.css);
 @import url(/blocks/small-projects/__gray-lines/small-projects__gray-lines.css);
 
-/* Facts */
-/* @import url(/blocks/facts/facts.css);
-@import url(/blocks/facts/__dots/facts__dots.css);
-@import url(/blocks/facts/__gray-lines/facts__gray-lines.css);
-@import url(/blocks/facts/__container/facts__container.css);
-@import url(/blocks/facts/__list/facts__list.css);
-@import url(/blocks/facts/__item/facts__item.css);
-@import url(/blocks/facts/__picture/facts__picture.css); */
-
-/* Message-me */
-/* @import url(/blocks/message-me/message-me.css);
-@import url(/blocks/message-me/__container/message-me__container.css);
-@import url(/blocks/message-me/__gray-lines/message-me__gray-lines.css); */
-
-/* Get-in-touch */
-/* @import url(/blocks/get-in-touch/get-in-touch.css);
-@import url(/blocks/get-in-touch/__container/get-in-touch__container.css);
-@import url(/blocks/get-in-touch/__dots/get-in-touch__dots.css);
-@import url(/blocks/get-in-touch/__list/get-in-touch__list.css);
-@import url(/blocks/get-in-touch/__item/get-in-touch__item.css);
-@import url(/blocks/get-in-touch/__link/get-in-touch__link.css);
-@import url(/blocks/get-in-touch/__image/get-in-touch__image.css); */
-
-/* About-me-skills */
-/* @import url(/blocks/about-me-skills/__flex/about-me-skills__flex.css); */
-
 /* Other */
 .new-color {
     color: #54CAFA;
@@ -262,21 +236,3 @@
         display: none;
     }
 }
-
-/* .intro__avatar-button {
-    display: flex;
-    width: 402px;
-    padding: 8px;
-}
-
-.intro__avatar-div {
-    align-self: center;
-    margin-right: 10px;
-    max-width: 16px;
-    max-height: 16px;
-    background-color: #C778DD;
-}
-
-.intro__avatar-span {
-    color: #FFF;
-} */
