@@ -18,14 +18,14 @@
 }
 
 .state__text::before {
-    content: url('/images/state_quaters.svg');
+    content: url('../../../images/state_quaters.svg');
     position: absolute;
     left: 15px;
     top: -19px;
 }
 
 .state__text::after {
-    content: url('/images/state_quaters.svg');
+    content: url('../../../images/state_quaters.svg');
     position: absolute;
     right: 15px;
     bottom: -19px;
