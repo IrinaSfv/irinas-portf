@@ -23,7 +23,7 @@
                         <a class="menu__item" href="#projects"><span class="new-color menu__span">&num;</span>projects</a>
                         <a class="menu__item" href="#about-me"><span class="new-color menu__span">&num;</span>about-me</a>
                         <a class="menu__item" href="#contacts"><span class="new-color menu__span">&num;</span>contact</a>
-                        <a href="/htmlpages/ru/index.html" class="menu__lang-button menu__item">RU</a>
+                        <!-- <a href="/htmlpages/ru/index.html" class="menu__lang-button menu__item">RU</a> -->
                     </nav>
                     <div class="menu__links">
                         <ul class="menu__links-list">
@@ -41,9 +41,9 @@
                 <a class="header__link" href="#about-me"><span class="new-color header__span">&num;</span>about-me</a>
                 <a class="header__link" href="#contacts"><span class="new-color header__span">&num;</span>contact</a>
             </nav>
-            <div class="header__lang-buttons">
+            <!-- <div class="header__lang-buttons">
                 <a href="/htmlpages/ru/index.html" class="header__button">RU</a>
-            </div>
+            </div> -->
         </div>
     </header>
     <main class="content page__content">
@@ -51,7 +51,7 @@
             <div class="intro__container">
                 <div class="intro__description-container">
                     <h1 class="intro__title">Irina Safarova, <span class="new-color intro__span">Front-End Developer</span></h1>
-                    <p class="intro__description">A&nbsp;highly motivated software engineer with experience in&nbsp;UX writing and unlimited passion for developing web apps.</p>
+                    <p class="intro__description">I&nbsp;love when interfaces are made with care for users, and&nbsp;I want to&nbsp;create exactly those kinds of&nbsp;interfaces.</p>
                     <a href="mailto:irinasfv19@gmail.com"><button class="button_color intro__button contact-button">Contact me</button></a>
                     <!-- <a class="intro__CV-link" href="#" target="_blank"><button class="button_white intro__button cv-button">Open CV</button></a> -->
                 </div>
@@ -79,7 +79,7 @@
                 <article class="section-header">
                     <h2 class="section-header__title"><span class="new-color section-header__span">&num;</span>projects</h2>
                     <div class="section-header__line"></div>
-                    <a class="section-header__link" href="/htmlpages/en/projects.html">View all &rarr;</a>
+                    <a class="section-header__link" href="https://github.com/IrinaSfv" target="_blank">View all &rarr;</a>
                 </article>
                 <div class="projects__content">
                     <article class="project">
@@ -87,16 +87,9 @@
                             <div class="project__cover"></div>
                             <img class="project__photo" src="/images/projects_mesto.png" alt="The Mesto project preview">
                         </div>
-                        <ul class="project__stack-list">
-                            <li class="project__stack-item">HTML</li>
-                            <li class="project__stack-item">CSS</li>
-                            <li class="project__stack-item">JavaScript</li>
-                            <li class="project__stack-item">BEM</li>
-                            <li class="project__stack-item">AdaptiveLayout</li>
-                        </ul>
                         <div class="project__description">
                             <h3 class="project__title">Mesto</h3>
-                            <p class="project__text">Social media for travelers</p>
+                            <p class="project__text">Social media with the functionality of changing profile information, adding cards, and setting likes</p>
                             <a class="project__link" href="https://irinasfv.github.io/mesto/" target="_blank"><button class="button_color project__live-button">Live &rarr;</button></a>
                             <a class="project__link" href="https://github.com/IrinaSfv/mesto" target="_blank"><button class="button_white project__git-button">Github</button></a>
                         </div>
@@ -104,18 +97,23 @@
                     <article class="project">
                         <div class="project__photo-container">
                             <div class="project__cover"></div>
+                            <img class="project__photo" src="/images/projects_portfolio.png" alt="The Mesto project preview">
+                        </div>
+                        <div class="project__description">
+                            <h3 class="project__title">Portfolio</h3>
+                            <p class="project__text">Personal website with navigation and adaptive layout for different devices</p>
+                            <a class="project__link" href="#" target="_blank"><button class="button_color project__live-button">Live &rarr;</button></a>
+                            <a class="project__link" href="#" target="_blank"><button class="button_white project__git-button">Github</button></a>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project__photo-container">
+                            <div class="project__cover"></div>
                             <img class="project__photo" src="/images/projects_russian-travel.png" alt="The Russian travel project preview">
                         </div>
-                        <ul class="project__stack-list">
-                            <li class="project__stack-item">HTML</li>
-                            <li class="project__stack-item">CSS</li>
-                            <li class="project__stack-item">AdaptiveLayout</li>
-                            <li class="project__stack-item">Flex</li>
-                            <li class="project__stack-item">Grid</li>
-                        </ul>
                         <div class="project__description">
                             <h3 class="project__title">Russian travel</h3>
-                            <p class="project__text">Lending about trevel around Russia</p>
+                            <p class="project__text">Landing page with adaptive layout for different devices about popular travel destinations</p>
                             <a class="project__link" href="https://irinasfv.github.io/russian-travel/" target="_blank"><button class="button_color project__live-button">Live &rarr;</button></a>
                             <a class="project__link" href="https://github.com/IrinaSfv/russian-travel" target="_blank"><button class="button_white project__git-button">Github</button></a>
                         </div>
@@ -125,17 +123,35 @@
                             <div class="project__cover"></div>
                             <img class="project__photo" src="/images/projects_how-to-learn.png" alt="The How to study project preview">
                         </div>
-                        <ul class="project__stack-list">
-                            <li class="project__stack-item">HTML</li>
-                            <li class="project__stack-item">CSS</li>
-                            <li class="project__stack-item">Grid</li>
-                            <li class="project__stack-item">Flex</li>
-                        </ul>
                         <div class="project__description">
                             <h3 class="project__title">How to study</h3>
-                            <p class="project__text">Lending about simple study rulls</p>
+                            <p class="project__text">Landing page with semantic layout and animation about best practices for learning new skills</p>
                             <a class="project__link" href="https://irinasfv.github.io/how-to-learn/" target="_blank"><button class="button_color project__live-button">Live &rarr;</button></a>
                             <a class="project__link" href="https://github.com/IrinaSfv/how-to-learn" target="_blank"><button class="button_white project__git-button">Github</button></a>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project__photo-container">
+                            <div class="project__cover"></div>
+                            <img class="project__photo" src="/images/projects_todolist.png" alt="The Mesto project preview">
+                        </div>
+                        <div class="project__description">
+                            <h3 class="project__title">To-Do List</h3>
+                            <p class="project__text">List of tasks with the functionality of adding and removing items by click</p>
+                            <!-- <a class="project__link" href="#" target="_blank"><button class="button_color project__live-button">Live &rarr;</button></a> -->
+                            <a class="project__link" href="https://github.com/IrinaSfv/To-DoList" target="_blank"><button class="button_white project__git-button">Github</button></a>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project__photo-container">
+                            <div class="project__cover"></div>
+                            <img class="project__photo" src="/images/projects_notepad.png" alt="The Mesto project preview">
+                        </div>
+                        <div class="project__description">
+                            <h3 class="project__title">Notepad</h3>
+                            <p class="project__text">Keeper of notes with the functionality of adding and deleting notes by click</p>
+                            <!-- <a class="project__link" href="#" target="_blank"><button class="button_color project__live-button">Live &rarr;</button></a> -->
+                            <a class="project__link" href="https://github.com/IrinaSfv/notepad" target="_blank"><button class="button_white project__git-button">Github</button></a>
                         </div>
                     </article>
                 </div>
@@ -155,16 +171,16 @@
                             <li class="skill__item">HTML</li>
                             <li class="skill__item">CSS</li>
                             <li class="skill__item">BEM</li>
-                            <li class="skill__item">FlexBox</li>
-                            <li class="skill__item">CSSGrid</li>
+                            <li class="skill__item">Flex</li>
+                            <li class="skill__item">Grid</li>
                             <li class="skill__item">Adaptive</li>
                         </ul>
                     </article>
                     <article class="skill">
-                        <h3 class="skill__title">Languages</h3>
+                        <h3 class="skill__title">Coding</h3>
                         <ul class="skill__list">
                             <li class="skill__item">JavaScript</li>
-                            <li class="skill__item">Java(entryLevel)</li>
+                            <li class="skill__item">React</li>
                         </ul>
                     </article>
                     <article class="skill">
@@ -172,15 +188,7 @@
                         <ul class="skill__list">
                             <li class="skill__item">VSCode</li>
                             <li class="skill__item">Figma</li>
-                            <li class="skill__item">Git</li>
                             <li class="skill__item">WebStorm</li>
-                        </ul>
-                    </article>
-                    <article class="skill">
-                        <h3 class="skill__title">Frameworks</h3>
-                        <ul class="skill__list">
-                            <li class="skill__item">Vue</li>
-                            <li class="skill__item">React</li>
                         </ul>
                     </article>
                     <article class="skill">
@@ -193,10 +201,17 @@
                     <article class="skill">
                         <h3 class="skill__title">Other</h3>
                         <ul class="skill__list">
+                            <li class="skill__item">Git</li>
                             <li class="skill__item">NPM</li>
-                            <li class="skill__item">jQuery</li>
-                            <li class="skill__item">Bootstrap</li>
                             <li class="skill__item">Webpack</li>
+                        </ul>
+                    </article>
+                    <article class="skill">
+                        <h3 class="skill__title">Will be soon</h3>
+                        <ul class="skill__list">
+                            <li class="skill__item">TypeScript</li>
+                            <li class="skill__item">Node.js</li>
+                            <li class="skill__item">Java</li>
                         </ul>
                     </article>
                 </div> 
@@ -213,10 +228,10 @@
                 </article>
                 <div class="about-me__grid">
                     <div class="about-me__description">
-                        <p class="about-me__text">Hello, world! I&#39;m Irina.</p> 
-                        <p class="about-me__text">I&rsquo;d been participating in&nbsp;the development of&nbsp;interfaces from the first idea to&nbsp;release as&nbsp;a&nbsp;UX writer for 2&nbsp;years. To&nbsp;learn more about how interfaces work, I&nbsp;started studying programming. Now I&nbsp;want to&nbsp;be&nbsp;the one who creates applications that solve real problems.</p> 
-                        <p class="about-me__text">My&nbsp;previous career allowed me&nbsp;to&nbsp;be&nbsp;communicative, creative and passionate about creating a&nbsp;good user experience. I&nbsp;take into consideration the users&rsquo; pain points while building interfaces and&nbsp;I enjoy bringing the new side to&nbsp;my&nbsp;work.</p> 
-                        <p class="about-me__text">My&nbsp;goal is&nbsp;to&nbsp;combine good design, technology, and innovation in&nbsp;all my&nbsp;projects and build highly performant applications that provide users with an&nbsp;awesome experience.</p>
+                        <p class="about-me__text">I&nbsp;came to&nbsp;development from a&nbsp;related profession: for 2&nbsp;years&nbsp;I worked as&nbsp;a&nbsp;UX editor at&nbsp;Skyeng. I&rsquo;ve always been interested in&nbsp;how websites and apps are structured from the inside out. Gradually I&nbsp;was fascinated by&nbsp;the desire not just to&nbsp;write texts for interfaces, think about the user&rsquo;s path and influence the product, but also to&nbsp;create it&nbsp;myself.</p> 
+                        <p class="about-me__text">Past experience has helped me&nbsp;learn to&nbsp;be&nbsp;creative, find common ground with different people and work for results. I&rsquo;m looking forward to&nbsp;using these qualities in&nbsp;my&nbsp;new role.</p> 
+                        <p class="about-me__text">Now I&nbsp;am studying web development at&nbsp;Yandex Practicum school, reading &laquo;Grokking algorithms&raquo;, watching lectures by&nbsp;CS50, taking a&nbsp;React course on&nbsp;Udemy and working on&nbsp;my&nbsp;pet-projects.</p> 
+                        <p class="about-me__text">In&nbsp;my&nbsp;spare time I&nbsp;am involved in&nbsp;music and learning foreign languages. I&nbsp;like to&nbsp;combine these two hobbies.</p>
                     </div>
                     <div class="about-me__avatar-container">
                         <div class="about-me__cover"></div>
@@ -263,7 +278,7 @@
                 <div class="footer__description">
                     <img class="footer__logo" src="/images/logo.svg" alt="Logo">
                     <p class="footer__email">irinasfv19@gmail.com</p>
-                    <p class="footer__text">Front-End Web Software Engineer from Moscow.</p>
+                    <p class="footer__text">Front-End Web Developer from Moscow.</p>
                 </div>
                 <div class="footer__contacts">
                     <h3 class="footer__title">Media</h3>

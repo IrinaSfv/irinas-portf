@@ -2,8 +2,9 @@
 <div id="stackBadges">
    <img src="https://img.shields.io/badge/-HTML5-red?style=for-the-badge&logo=HTML5&logoColor=white" alt="HTML5"/>
    <img src="https://img.shields.io/badge/-CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white" alt="CSS3"/>
-   <img src="https://img.shields.io/badge/-GIT-orange?style=for-the-badge&logo=Git&logoColor=white" alt="GIT"/>
    <img src="https://img.shields.io/badge/-BEM-black?style=for-the-badge" alt="BEM"/>
+   <img src="https://img.shields.io/badge/-GIT-orange?style=for-the-badge&logo=Git&logoColor=white" alt="GIT"/>
+   <img src="https://img.shields.io/badge/-JavaScript-yellow?style=for-the-badge&logo=JavaScript&logoColor=white" alt="JavaScript"/>
 </div>
 
 ### Personal website about me and my projects.
@@ -16,7 +17,7 @@ In this project, I've:
 ## Installation
 * Run `GitBash` (or `Terminal` on MacOS);
 * Select or create a new repository where you want to put the project;
-* Run the command: `git clone https://github.com/IrinaSfv/irinasafarova.git`;
+* Run the command: `git clone https://github.com/IrinaSfv/irinas-portf.git`;
 * Open the project in any convenient code editor.
 
 ## Usage
@@ -26,4 +27,4 @@ You can view the current version of the page by following the link:
 ## To-do
 * Add functionality for opening and closing pop-up with form when clicking on the `Contact me` button;
 * Add validation and form submission to the server;
-* Add functionality to switch between languages without opening another page.
+* Add functionality to switch between languages.

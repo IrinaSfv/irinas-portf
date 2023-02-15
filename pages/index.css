@@ -72,8 +72,6 @@
 /* Project */
 @import url(/blocks/project/project.css);
 @import url(/blocks/project/__photo/project__photo.css);
-@import url(/blocks/project/__stack-list/project__stack-list.css);
-@import url(/blocks/project/__stack-item/project__stack-item.css);
 @import url(/blocks/project/__description/project__description.css);
 @import url(/blocks/project/__title/project__title.css);
 @import url(/blocks/project/__text/project__text.css);
@@ -107,7 +105,7 @@
 @import url(/blocks/about-me/__cover/about-me__cover.css);
 @import url(/blocks/about-me/__link/about-me__link.css);
 
-/* Contacts */
+/* Contact */
 @import url(/blocks/contacts/contacts.css);
 @import url(/blocks/contacts/__dots/contacts__dots.css);
 @import url(/blocks/contacts/__container/contacts__container.css);
@@ -143,29 +141,20 @@
 @import url(/blocks/footer/__copyright/footer__copyright.css);
 
 /* Popup */
-@import url(/blocks/popup/popup.css);
+/* @import url(/blocks/popup/popup.css);
 @import url(/blocks/popup/__container/popup__container.css);
 @import url(/blocks/popup/__close-button/popup__close-button.css);
 @import url(/blocks/popup/__title/popup__title.css);
-@import url(/blocks/popup/_opened/popup_opened.css);
+@import url(/blocks/popup/_opened/popup_opened.css); */
 
 /* Message */
-@import url(/blocks/message/__form/message__form.css);
+/* @import url(/blocks/message/__form/message__form.css);
 @import url(/blocks/message/__input/message__input.css);
 @import url(/blocks/message/__input/_type/message__input_type_email.css);
 @import url(/blocks/message/__input/_type/message__input_type_name.css);
 @import url(/blocks/message/__input/_type/message__input_type_text.css);
 @import url(/blocks/message/__input/_type/message__input_type_title.css);
-@import url(/blocks/message/__submit-button/message__submit-button.css);
-
-/* Title */
-@import url(/blocks/title/title.css);
-@import url(/blocks/title/__head/title__head.css);
-@import url(/blocks/title/__subhead/title__subhead.css);
-
-/* Small-projects */
-@import url(/blocks/small-projects/__dots/small-projects__dots.css);
-@import url(/blocks/small-projects/__gray-lines/small-projects__gray-lines.css);
+@import url(/blocks/message/__submit-button/message__submit-button.css); */
 
 /* Other */
 .new-color {

@@ -1,7 +1,20 @@
 .project__text {
     margin: 0 0 16px;
+    min-height: 84px;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     color: #ABB2BF;
+}
+
+@media screen and (min-width: 1186px) and (max-width: 1274px) {
+    .project__text {
+        min-height: 105px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1186px) {
+    .project__text {
+        min-height: 126px;
+    }
 }
