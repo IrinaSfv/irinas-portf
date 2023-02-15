@@ -7,7 +7,6 @@
 }
 
 @media screen and (max-width: 568px) {
-    /* мобильные устройства */
     .skills__grid {
         display: flex;
         flex-wrap: wrap;

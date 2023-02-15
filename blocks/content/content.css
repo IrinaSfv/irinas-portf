@@ -4,7 +4,6 @@
 }
 
 @media screen and (max-width: 984px) {
-    /* от вертикального до горизонтального положения планшета */
     .content {
         grid-row-gap: 94px;
     }
@@ -17,7 +16,6 @@
 }
 
 @media screen and (max-width: 568px) {
-    /* мобильные устройства */
     .content {
         grid-row-gap: 54px;
     }

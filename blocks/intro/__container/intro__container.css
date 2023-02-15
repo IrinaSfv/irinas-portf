@@ -8,14 +8,12 @@
 }
 
 @media screen and (max-width: 1124px) {
-    /* для небольших ноутбуков */
     .intro__container {
         padding: 0 120px;
     }
 }
 
 @media screen and (max-width: 984px) {
-    /* от вертикального до горизонтального положения планшета */
     .intro__container {
         padding: 0 70px;
     }
@@ -28,7 +26,6 @@
 }
 
 @media screen and (max-width: 568px) {
-    /* мобильные устройства */
     .intro__container {
         padding: 0 16px;
         flex-direction: column;

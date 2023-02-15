@@ -9,7 +9,6 @@
 }
 
 @media screen and (max-width: 568px) {
-    /* мобильные устройства */
     .intro__avatar-container {
         margin: 0;
         max-height: 250px;
