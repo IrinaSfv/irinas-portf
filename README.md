@@ -22,7 +22,7 @@ In this project, I've:
 
 ## Usage
 You can view the current version of the page by following the link:
-### [Irina's Portfolio](https://irinasfv.github.io/)
+### [Irina's Portfolio](https://irinasfv.github.io/irinas-portf/)
 
 ## To-do
 * Add functionality for opening and closing pop-up with form when clicking on the `Contact me` button;
